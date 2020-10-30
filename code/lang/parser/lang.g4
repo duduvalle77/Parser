@@ -1,3 +1,7 @@
+/* Eduardo Vieira Marques Pereira do Valle 201665554C
+ * Matheus Brinati Altomar 201665564C
+ */
+ 
 grammar lang;
 
 @parser::header
@@ -141,6 +145,7 @@ LINE_COMMENT:       '--' ~[\r\n]*    -> channel(HIDDEN);
 ID : [a-z] [a-zA-Z0-9_]* ;
 IDtype : [A-Z] [a-zA-Z0-9_]* ;
 
+// Auxiliaries
 
 fragment EscapeSequence
     : '\\' [btnfr"'\\]

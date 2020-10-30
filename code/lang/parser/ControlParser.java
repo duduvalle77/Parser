@@ -1,3 +1,6 @@
+/* Eduardo Vieira Marques Pereira do Valle 201665554C
+ * Matheus Brinati Altomar 201665564C
+ */
 package lang.parser;
 
 import lang.ast.SuperNode;
@@ -5,7 +8,7 @@ import lang.ast.No;
 import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.tree.*;
 
-public class ParserLang implements ParseAdaptor{
+public class ControlParser implements ParseAdaptor{
     public SuperNode parseFile(String path) throws Exception 
     {
         
